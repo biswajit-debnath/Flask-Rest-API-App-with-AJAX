@@ -1,0 +1,11 @@
+.con {
+	height: 100vh;
+}
+.Mycard {
+	align-self: center;
+}
+
+#sucess,
+#failed {
+	display: none;
+}
