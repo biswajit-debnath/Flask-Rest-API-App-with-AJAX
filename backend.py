@@ -11,9 +11,10 @@ def index():
 def process():
 	email = request.form['email']
 	name = request.form['name']
+	obj={'messz' : 'Successfully Submiitted'}
 
 	if name and email:
-		return jsonify({'messz' : 'Successfully Submiitted'})
+		return jsonify(obj)
 	else:
 		return jsonify({'err' : 'Error Occured!'})
 
